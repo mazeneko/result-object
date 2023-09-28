@@ -4,6 +4,9 @@ import mazeneko.result.FailureResult;
 import mazeneko.result.Result;
 import mazeneko.result.SuccessResult;
 
+/**
+ * Resultを返す処理のサンプル
+ */
 class ResultProviderExample {
   Result<SuccessMessage, FailureReason> run(boolean willSucceed) {
     if (willSucceed) {

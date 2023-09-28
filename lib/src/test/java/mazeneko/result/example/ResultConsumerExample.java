@@ -3,6 +3,9 @@ package mazeneko.result.example;
 import mazeneko.result.FailureResult;
 import mazeneko.result.SuccessResult;
 
+/**
+ * Resultを受け取って使う処理のサンプル
+ */
 class ResultConsumerExample {
   private final ResultProviderExample resultProviderExample;
 
